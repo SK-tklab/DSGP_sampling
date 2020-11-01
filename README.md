@@ -1,5 +1,5 @@
 # DSGP_sampling
-Implementation of DSGP sampling and compare existing methods using only numpy.  
+Implementation of Decoupled Sampling GP approximation (DSGP) and compare existing methods using only numpy.  
 paper : [Efficiently Sampling Functions from Gaussian Process Posteriors](https://arxiv.org/abs/2002.09309) (ICML2020)
 
 ## Overview

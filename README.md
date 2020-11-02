@@ -9,7 +9,7 @@ By approximating the GP with Bayesian linear regression using random Fourier fea
 
 In this study, they define a *pathwise update* derived from Matheron's Rule.
 We obtain the sample path of the prior from the RFF-BLR and update it with kernel basis to sample function from the GP posterior.
-This method allows us to evaluate the function value in (m) and to sample the function that can be evaluated at any point.
+This method allows us to evaluate the function value in O(m) and to sample the function that can be evaluated at any point.
 
 ## Plot
 - Number of RFF : 2000

@@ -20,7 +20,7 @@ In RFF-BLR, the predictions in extrapolation is ill-behaved as the number of tra
 Predictive variance becomes small relative to the predictive mean.
 This behavior is known as *variance starvation*. (see https://arxiv.org/pdf/1706.01445.pdf)
 | |DSGP |Exact GP | RFF-BLR|
-|:--|:-:|:-:| :-:|
+|--:|:-:|:-:| :-:|
 |n=3| <img src="https://github.com/SK-tklab/DSGP_sampling/blob/main/image/DSGPsample_3.png" width="400px">  |<img src="https://github.com/SK-tklab/DSGP_sampling/blob/main/image/GPsample_3.png" width="400px"> | <img src="https://github.com/SK-tklab/DSGP_sampling/blob/main/image/RFFsample_3.png" width="400px"> |
 |n=10| <img src="https://github.com/SK-tklab/DSGP_sampling/blob/main/image/DSGPsample_10.png" width="400px">  |<img src="https://github.com/SK-tklab/DSGP_sampling/blob/main/image/GPsample_10.png" width="400px"> | <img src="https://github.com/SK-tklab/DSGP_sampling/blob/main/image/RFFsample_10.png" width="400px"> |
 |n=50| <img src="https://github.com/SK-tklab/DSGP_sampling/blob/main/image/DSGPsample_50.png" width="400px">  |<img src="https://github.com/SK-tklab/DSGP_sampling/blob/main/image/GPsample_50.png" width="400px"> | <img src="https://github.com/SK-tklab/DSGP_sampling/blob/main/image/RFFsample_50.png" width="400px"> |
